@@ -22,6 +22,12 @@
 
 	И я перезаполняю константу "NotFirstStart" значением "False"
 
+	// Справочник.ExpenseAndRevenueTypes
+
+	И я проверяю или создаю для справочника "ExpenseAndRevenueTypes" объекты:
+		| 'Ref'                                                                            | 'DeletionMark' | 'Parent' | 'Code' | 'IsExpense' | 'IsRevenue' | 'IsFinancialMovementType' | 'Description_en' | 'Description_hash' | 'Description_ru'  | 'Description_tr' |
+		| 'e1cib/data/Catalog.ExpenseAndRevenueTypes?ref=9830841b77056f4411ed969120e8b29b' | 'False'        | ''       | 1      | 'True'      | 'False'     | 'False'                   | ''               | ''                 | 'Статья расходов' | ''               |
+
 
 	И я проверяю или создаю для справочника "Currencies" объекты с обмен данными загрузка истина:
 		| 'Ref'                                                                | 'DeletionMark' | 'Code' | 'Symbol' | 'NumericCode' | 'Description_en' | 'Description_hash' | 'Description_ru' | 'Description_tr' |
